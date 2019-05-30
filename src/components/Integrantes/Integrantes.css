@@ -1,0 +1,72 @@
+.fondo-fink {
+	background-color: #00cec9;
+	box-shadow: 1px 2px 3px #000;
+	border-radius: 1%;
+}
+.perfil-fink {
+    height: 35%;
+    width: 40%;
+    border-radius: 100%;
+}
+
+.fondo-tipo {
+	background-color: #e17055;
+	box-shadow: 1px 2px 3px #000;
+	border-radius: 1%;
+}
+
+#integrantes {
+	background-image: url('../../img/fondo-integrantes.png');
+}
+
+/* Tarjetas */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;	
+	display: flex;
+	justify-content: center;
+}
+
+.tarjeta-wrap {
+	margin: 10px;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 100%;
+	height: 375px;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+}
+
+.adelante, .atras {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.adelante{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.atras{
+	transform: rotateY(180deg);
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	transform: rotateY(180deg);
+}
