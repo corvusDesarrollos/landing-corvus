@@ -9,7 +9,14 @@ class Galeria extends Component {
             <section className="text-center pb-2 bg-dark">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 pt-2">
+                        <div className="col-lg-12 text-white">
+				            <h3 className="mt-3">Obtenga su pagina web ideal</h3>
+				            <p className="">Nos dedicamos al desarrollo de paginas webs hechas justo a la medida de su negocio o empresa, la calidad y confianza de nuesto servicio nos caracteriza. En la galeria de la izquierda vera algunos de nuestros diseños, para consultas o contrataciones no dude de pasar por nuestra seccion de contacto.
+				            </p>
+				        </div>                      
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-12 pt-2">
                             <Carousel>
                                 <Carousel.Item>
                                     <img alt="..." src={fotoCarousel} className="d-block w-100"/>
@@ -34,11 +41,6 @@ class Galeria extends Component {
                                 </Carousel.Item>
                             </Carousel>
                         </div>
-                        <div className="col-lg-6 text-white">
-				            <h1 className="py-3">Obtenga su pagina web ideal</h1>
-				            <p className="py-3">Nos dedicamos al desarrollo de paginas webs hechas justo a la medida de su negocio o empresa, la calidad y confianza de nuesto servicio nos caracteriza. En la galeria de la izquierda vera algunos de nuestros diseños, para consultas o contrataciones no dude de pasar por nuestra seccion de contacto.
-				            </p>
-				        </div>
                     </div>
                 </div>
             </section>

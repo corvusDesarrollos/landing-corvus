@@ -11,7 +11,6 @@ class Navegacion extends Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#deets" className="active"><i className="fas fa-home"></i> Inicio</Nav.Link>
                         <Nav.Link href="#footer"><i className="far fa-address-book"></i> Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
