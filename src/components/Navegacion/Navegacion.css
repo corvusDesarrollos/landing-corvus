@@ -10,3 +10,15 @@
 .navbar-toggler-icon {
 	color: #fff !important;
 }
+
+body{
+	font-family: 'Merienda', cursive !important;  
+}
+
+.contacto {
+	color: #fff!important;
+}
+
+.contacto:hover {
+	color: red!important;
+}

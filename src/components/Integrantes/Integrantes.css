@@ -58,6 +58,7 @@
 
 .adelante{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -70,3 +71,4 @@
 .tarjeta-wrap:hover .tarjeta{
 	transform: rotateY(180deg);
 }
+

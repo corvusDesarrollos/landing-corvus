@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import './Integrantes.css';
+import fotoFink from '../../img/foto-fink.png'
 
 class Integrantes extends Component {
     render() {
         return (
-            <section id="integrantes" className="bg-light text-center justify-content-center py-3">
+            <section id="integrantes" className="bg-light py-3">
                 <div className="wrap">
                     <div className="container">
-                        <div className="row">
+                        <h2>¿ Quienes somos ?</h2>
+                        <div className="row text-center">
                             <div className="col-lg-6">
                                 <div className="tarjeta-wrap">
                                     <div className="tarjeta">
                                         <div className="adelante fondo-fink">
-                                            <h1 className="">Matías Fink</h1>
+                                            <img id="foto-fink" alt="..." src={fotoFink} className=""/>
+                                            <h1 className="mt-3">Matías Fink</h1>
                                         </div>
                                         <div className="atras fondo-fink">
                                             <div className="mt-3">

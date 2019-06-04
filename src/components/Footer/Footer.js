@@ -5,8 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <div className="container py-3 justify-content-center text-center" id="footer">
-                    <h2 className="mb-3"><i className="fas fa-crow"></i> Corvus</h2>
+                <div className="container py-3 justify-content-center" id="footer">
                     <div className="row text-center">
                         <div className="col-lg-6">
                                 <div className="card">
@@ -20,7 +19,7 @@ class Footer extends Component {
                                 <div className="card">
                                         <div className="card-body">
                                             <h5 className="card-title"><i className="fas fa-mobile-alt"></i> Celular:</h5>
-                                            <p className="card-text">3472529918</p>
+                                            <p className="card-text">3472447401 - 3472529918</p>
                                         </div>
                                 </div>
                         </div>

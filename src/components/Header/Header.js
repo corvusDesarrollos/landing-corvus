@@ -3,32 +3,6 @@ import './Header.css';
 import logoC from '../../img/IMG_resp.png';
 
 class Header extends Component {
-	/*constructor () {
-		super();
-
-		this.state = {
-			contenido: "Ver mas",
-			historia: "Equipo de desarrollo web y soluciones informaticas"
-		};
-
-		this.desplegarHistoria = this.desplegarHistoria.bind(this);
-	}
-	
-	desplegarHistoria() {
-		if(this.state.contenido === "Ver mas") {
-			console.log('hola');
-			this.setState({
-				contenido: "Ver menos",
-				historia: "Equipo de desarrollo web y soluciones informaticas, piensa en llevar su negocio a internet para una mayor expocicion en el mercado en linea o facilitar sus procesos con un sistema web para trabajar desde casa, su celular y demas dispositivos. En la proxima seccion vera una muestra de nuestro trabajo."
-			}) 
-		} else {
-			console.log('gola');
-			this.setState({
-				contenido: "Ver mas",
-				historia: "Equipo de desarrollo web y soluciones informaticas"
-			})
-		}
-	}*/
 	render() {
         return (
             <section id="inicio" className="main-header">
@@ -37,8 +11,7 @@ class Header extends Component {
 						        <h1 className="text-center">Corvus - Desarrollo web</h1>
 				        <div className="row">
 					        <div className="col-md-6">
-						    <div className="mas" id="contenedor-historia">
-								{/*<p id="historia" className="mt-3">{this.state.historia}</p>*/}
+						    <div className="" id="contenedor-historia">
 								<ol className="ml-3 mt-4">
 									<li type="circle" className="mt-2">
 										Equipo de desarrollo web y soluciones informaticas, piensa en llevar su negocio a internet, este es su lugar.
@@ -54,9 +27,6 @@ class Header extends Component {
 									</li>
 								</ol>
 						    </div>
-						    {/*<button onClick={this.desplegarHistoria} id="ver-mas" className="btn btn-outline-secondary text-white">
-							    {this.state.contenido}
-						    </button>*/}
 					        </div>
 					        <div className="col-md-6">
                                 <div className="mas d-flex justify-content-center" id="contenedor-logo">

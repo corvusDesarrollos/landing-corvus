@@ -11,12 +11,12 @@ class RedesSociales extends Component {
                             <h1>Redes Sociales</h1>
                         </div>
                         <div className="col-lg-4 py-3">
-                            <a className="btn btn-primary btn-lg btn-block" target="_blanck" href="https://www.instagram.com/penelope_amigurumis/">
+                            <a className="btn btn-primary btn-lg btn-block" target="_blanck" href="/">
                                 Seguinos en Instagram <i className="fab fa-instagram"></i>
                             </a>
                         </div>
                         <div className="col-lg-4 py-3">
-                            <a className="btn btn-primary btn-lg btn-block" href="https://www.facebook.com/microemprendimiento.penelope" target="_blanck">
+                            <a className="btn btn-primary btn-lg btn-block" href="/" target="_blanck">
                                 Seguinos en FaceBook <i className="fab fa-facebook-square"></i>
                             </a>
                         </div>
