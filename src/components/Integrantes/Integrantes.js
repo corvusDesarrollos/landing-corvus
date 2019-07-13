@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Integrantes.css';
 import fotoFink from '../../img/foto-fink.png'
+import fotoTipo from '../../img/foto-tipo.png'
 
 class Integrantes extends Component {
     render() {
@@ -36,7 +37,8 @@ class Integrantes extends Component {
                                 <div className="tarjeta-wrap">
                                     <div className="tarjeta">
                                         <div className="fondo-tipo adelante">
-                                            <h1 className="">Franco Schilliage</h1>
+                                            <img id="foto-fink" alt="..." src={fotoTipo} className=""/>
+                                            <h1 className="mt-3">Franco Schilliage</h1>
                                         </div>
                                         <div className="fondo-tipo atras">
                                             <div className="mt-3">

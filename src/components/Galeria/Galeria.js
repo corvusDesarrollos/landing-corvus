@@ -23,22 +23,19 @@ class Galeria extends Component {
                                 <Carousel.Item>
                                     <img alt="..." src={danielRomano1} className="d-block w-100"/>
                                 <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
+
                                 </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img src={danielRomano2} className="d-block w-100" alt="..."/>
                                 <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
+
                                 </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img alt="..." src={danielRomano3} className="d-block w-100"/>
                                 <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
+
                                 </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
