@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navegacion.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-scroll';
 
 class Navegacion extends Component {
     render() {
@@ -11,7 +12,7 @@ class Navegacion extends Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className="contacto" href="#footer"><i class="far fa-comments"></i> Contacto</Nav.Link>
+                        <Link activeClass="active" className="contacto" to="test1" spy={true} smooth={true} duration={500} ><i className="far fa-comments"></i> Contacto</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

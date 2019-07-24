@@ -5,7 +5,8 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <div className="container py-3 justify-content-center" id="footer">
+                <div className="container py-3 justify-content-center" name="test1" id="footer">
+                    <h3 className="text-center mb-4">Contacto</h3>
                     <div className="row text-center">
                         <div className="col-lg-6">
                                 <div className="card">

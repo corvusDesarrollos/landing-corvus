@@ -9,7 +9,7 @@ class Galeria extends Component {
     render() {
         return (
             <section className="pb-2 bg-dark">
-                <div className="container">
+                <div className="container mb-4">
                     <div className="row">
                         <div className="col-lg-12">
 				            <h3 className="mt-3  text-white">¿ Que estuvimos haciendo ?</h3>
@@ -18,7 +18,7 @@ class Galeria extends Component {
 				        </div>                      
                     </div>
                     <div className="row">
-                        <div className="col-lg-12 pt-2">
+                        <div className="col-lg-9 pt-2">
                             <Carousel id="carousel">
                                 <Carousel.Item>
                                     <img alt="..." src={danielRomano1} className="d-block w-100"/>
@@ -39,6 +39,13 @@ class Galeria extends Component {
                                 </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
+                        </div>
+                        <div className="col-lg-3 text-white mt-3">
+                            <h4 className="justify-content-center">Turnero</h4>
+                            <span className="">Sistema gestor de turnos para peluquerias. Agiliza el registro que suele 
+                            hacerse en papel, automatiza cuestiones administrativas y cuenta con varios reportes. 
+                            Manejo de turnos, registro del pago de los mismos, apertura y cierre de caja, reportes de 
+                            ganancias, historial de turnos, estadisticas personalizadas.</span>
                         </div>
                     </div>
                 </div>
