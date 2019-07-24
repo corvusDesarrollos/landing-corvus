@@ -22,10 +22,10 @@ class Integrantes extends Component {
                                             <div className="mt-3">
                                                 <h3 className="">Desarrollador front-end</h3>
                                                 <ul className="list-group">
+                                                    <li className="list-group-item"><i className="fab fa-react"></i> React</li>
+                                                    <li className="list-group-item"><i className="fab fa-js"></i> Java Script</li>
                                                     <li className="list-group-item"><i className="fab fa-html5"></i> HTML5</li>
                                                     <li className="list-group-item"><i className="fab fa-css3-alt"></i> CSS3</li>
-                                                    <li className="list-group-item"><i className="fab fa-js"></i> Java Script</li>
-                                                    <li className="list-group-item"><i className="fab fa-react"></i> React</li>
                                                     <li className="list-group-item"><i className="fab fa-bootstrap"></i> Bootstrap</li>
                                                 </ul>
                                             </div>
@@ -44,9 +44,9 @@ class Integrantes extends Component {
                                             <div className="mt-3">
                                                 <h3>Desarrollador back-end</h3>
                                                 <ul className="list-group">
-                                                    <li className="list-group-item">Json</li>
-                                                    <li className="list-group-item">Django</li>
-                                                    <li className="list-group-item">PotsgreSQL</li>
+                                                    <li className="list-group-item"><i className="fab fa-python"></i> Django</li>
+                                                    <li className="list-group-item"><i className="fas fa-database"></i> PotsgreSQL</li>
+                                                    <li className="list-group-item"><i className="fab fa-js"></i> Java Script</li>
                                                     <li className="list-group-item"><i className="fab fa-html5"></i>  HTML5</li>
                                                     <li className="list-group-item"><i className="fab fa-css3-alt"></i> CSS3</li>
                                                 </ul>
